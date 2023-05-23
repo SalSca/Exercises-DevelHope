@@ -1,0 +1,16 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+server:
+  port: 1234
+
+swagger:
+  documentation:
+    api-info:
+      title: My API
+      description: This is my awesome API documentation
+      version: 1.0
+    tags:
+      - name: Salvo Scalisi
+        description: My name-controller that returns my name
